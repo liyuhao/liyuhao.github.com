@@ -4,7 +4,7 @@
   <title><![CDATA[Deer's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-05-11T23:26:24+02:00</updated>
+  <updated>2013-05-12T00:06:12+02:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -14,19 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://liyuhao.github.io/blog/2013/05/11/test/"/>
-    <updated>2013-05-11T22:45:00+02:00</updated>
-    <id>http://liyuhao.github.io/blog/2013/05/11/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[title]]></title>
-    <link href="http://liyuhao.github.io/blog/2013/05/11/title/"/>
-    <updated>2013-05-11T21:45:00+02:00</updated>
-    <id>http://liyuhao.github.io/blog/2013/05/11/title</id>
+    <title type="html"><![CDATA[终于弄好了]]></title>
+    <link href="http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao/"/>
+    <updated>2013-05-12T00:06:00+02:00</updated>
+    <id>http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
