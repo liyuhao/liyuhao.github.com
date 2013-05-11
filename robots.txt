@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://liyuhao.github.io/sitemap.xml 
