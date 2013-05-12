@@ -4,7 +4,7 @@
   <title><![CDATA[Deer's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-05-12T10:34:13+02:00</updated>
+  <updated>2013-05-12T13:29:24+02:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A study in predator prey model]]></title>
     <link href="http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/"/>
-    <updated>2013-05-12T09:09:00+02:00</updated>
+    <updated>2013-05-12T13:28:00+02:00</updated>
     <id>http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model</id>
     <content type="html"><![CDATA[<p>因为毕业论文的缘故，最近在学习<em>predator-prey model</em>，算是属于<strong>evolutionary game theory</strong>里面的吧。记得第二学期选<em>Advanced Microeconomics</em>的时候<a href="http://www.econ.upf.edu/en/people/onefaculty.php?id=p2364">Fabrizio Germano</a>在讲heuristic就在说</p>
 
@@ -38,6 +38,8 @@
 
 <p>这其中：</p>
 
+<!-- more -->
+
 <p>X 代表猎物的数量</p>
 
 <p>T 代表扑食者的数量</p>
@@ -53,6 +55,7 @@
 <p>整个方程组的不动点（？对应的英文是rest point,就是使$\dot{X}=0$, $\dot{T}=0$的点）有两对，第一队显而易见，$X=0$,$T=0$,但这并不是所需要的（扑食者跟猎物都灭绝了，还研究个鸟啊）另外一对则是：$T=\frac{g}{\mu}$ 以及 $X=\frac{\gamma}{\delta}$. 事实上，从图形的角度来看（以X为横坐标，T为纵坐标），运动轨迹正好是一个类圆形。</p>
 
 <p><img src="http://b.hiphotos.baidu.com/album/s%3D1100%3Bq%3D90/sign=97af957f29381f309a1989a899317779/9825bc315c6034a8575f1fc6ca13495409237633.jpg" alt="轨迹图" /></p>
+
 ]]></content>
   </entry>
   
