@@ -4,7 +4,7 @@
   <title><![CDATA[Deer's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-05-12T09:10:27+02:00</updated>
+  <updated>2013-05-12T10:23:17+02:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -49,6 +49,8 @@
 <p>$\delta$  代表消化效率</p>
 
 <p>$\gamma$ 则代表扑食者的死亡率</p>
+
+<p>整个方程组的不动点（？对应的英文是rest point,就是使$\dot{X}=0$, $\dot{T}=0$的点）有两对，第一队显而易见，$X=0$,$T=0$,但这并不是所需要的（扑食者跟猎物都灭绝了，还研究个鸟啊）另外一对则是：$T=\frac{g}{\mu}$ 以及 $X=\frac{\gamma}{\delta}$. 事实上，从图形的角度来看（以X为横坐标，T为纵坐标），运动轨迹正好是一个类圆形。</p>
 
 ]]></content>
   </entry>
