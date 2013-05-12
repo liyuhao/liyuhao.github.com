@@ -9,7 +9,7 @@
   <meta name="author" content="Li Yuhao">
 
   
-  <meta name="description" content="因为毕业论文的缘故，最近在学习predator-prey model，算是属于evolutionary game theory里面的吧。记得第二学期选Advanced Microeconomics的时候Fabrizio Germano在讲heuristic就在说 &ldquo;some ideas &hellip;">
+  <meta name="description" content="因为毕业论文的缘故，最近在学习predator-prey model，算是属于evolutionary game theory里面的吧。记得第二学期选Advanced Microeconomics的时候Fabrizio Germano在讲heuristic就在说 some ideas are &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -31,6 +31,37 @@
 
   
 
+  
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </head>
 
 <body   >
@@ -92,9 +123,37 @@
 
 <div class="entry-content"><p>因为毕业论文的缘故，最近在学习<em>predator-prey model</em>，算是属于<strong>evolutionary game theory</strong>里面的吧。记得第二学期选<em>Advanced Microeconomics</em>的时候<a href="http://www.econ.upf.edu/en/people/onefaculty.php?id=p2364">Fabrizio Germano</a>在讲heuristic就在说</p>
 
-<blockquote><p>&ldquo;some ideas are from biology&rdquo;</p></blockquote>
+<blockquote>
+  <p>some ideas are from biology  </p>
+</blockquote>
 
 <p>当时觉得那个天雷滚滚，三观尽毁，现在看来，感觉是那么的合乎情理，甚至显而易见。果然是沉淀了么，偷笑一个。</p>
+
+<p>其实这个模型（two species case）的基本思路非常之简单，假设生态系统中存在扑食者（predator）跟猎物（prey），他们之间遵循这个一个常微分方程（<a href="http://en.wikipedia.org/wiki/Ordinary_differential_equation">ordinary differential equation</a> ）:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+
+\begin{align*}
+ &\dot{X}=gX-\mu XT \\
+ &\dot{T}=\delta XT-\gamma T
+\end{align*}
+ %]]></script>
+
+<p>这其中：</p>
+
+<p>X 代表猎物的数量</p>
+
+<p>T 代表扑食者的数量</p>
+
+<p>g 代表猎物的增长率（缺少扑食者存在的条件下）</p>
+
+<p>$\mu$ 代表扑食效率</p>
+
+<p>$\delta$  代表消化效率</p>
+
+<p>$\gamma$ 则代表扑食者的死亡率</p>
+
+<p>未完待续</p>
 </div>
 
 
@@ -155,6 +214,10 @@
     
       <li class="post">
         <a href="/blog/2013/05/12/zhong-yu-nong-hao-liao/">终于弄好了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/12/a-study-in-predator-prey-model/">A Study In Predator Prey Model</a>
       </li>
     
   </ul>

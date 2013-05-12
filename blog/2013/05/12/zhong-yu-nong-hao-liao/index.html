@@ -9,7 +9,8 @@
   <meta name="author" content="Li Yuhao">
 
   
-  <meta name="description" content="在BEAR同志下的细心指导下，终于配置好了octopress+github的blog。。 果然是很麻烦!!!!!
+  <meta name="description" content="在BEAR同志下的细心指导下，终于配置好了octopress+github的blog。。
+#果然是很麻烦!!!!!
 ">
   
 
@@ -32,6 +33,37 @@
 
   
 
+  
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </head>
 
 <body   >
@@ -91,9 +123,8 @@
   </header>
 
 
-<div class="entry-content"><p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。</p>
-
-<h1><strong>果然是很麻烦!!!!!</strong></h1>
+<div class="entry-content"><p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。
+#<strong>果然是很麻烦!!!!!</strong></p>
 </div>
 
 
@@ -133,6 +164,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/05/12/a-study-in-predator-prey-model/" title="Previous Post: A Study In Predator Prey Model">&laquo; A Study In Predator Prey Model</a>
+      
       
         <a class="basic-alignment right" href="/blog/2013/05/12/a-study-in-predator-prey-model/" title="Next Post: A study in predator-prey model">A study in predator-prey model &raquo;</a>
       
@@ -154,6 +187,10 @@
     
       <li class="post">
         <a href="/blog/2013/05/12/zhong-yu-nong-hao-liao/">终于弄好了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/12/a-study-in-predator-prey-model/">A Study In Predator Prey Model</a>
       </li>
     
   </ul>

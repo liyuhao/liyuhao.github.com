@@ -4,7 +4,7 @@
   <title><![CDATA[Deer's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-05-12T00:57:18+02:00</updated>
+  <updated>2013-05-12T01:59:02+02:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -20,9 +20,37 @@
     <id>http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model</id>
     <content type="html"><![CDATA[<p>因为毕业论文的缘故，最近在学习<em>predator-prey model</em>，算是属于<strong>evolutionary game theory</strong>里面的吧。记得第二学期选<em>Advanced Microeconomics</em>的时候<a href="http://www.econ.upf.edu/en/people/onefaculty.php?id=p2364">Fabrizio Germano</a>在讲heuristic就在说</p>
 
-<blockquote><p>&ldquo;some ideas are from biology&rdquo;</p></blockquote>
+<blockquote>
+  <p>some ideas are from biology  </p>
+</blockquote>
 
 <p>当时觉得那个天雷滚滚，三观尽毁，现在看来，感觉是那么的合乎情理，甚至显而易见。果然是沉淀了么，偷笑一个。</p>
+
+<p>其实这个模型（two species case）的基本思路非常之简单，假设生态系统中存在扑食者（predator）跟猎物（prey），他们之间遵循这个一个常微分方程（<a href="http://en.wikipedia.org/wiki/Ordinary_differential_equation">ordinary differential equation</a> ）:</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin{align*}
+ &\dot{X}=gX-\mu XT \\
+ &\dot{T}=\delta XT-\gamma T
+\end{align*}
+ %]]&gt;</script>
+
+<p>这其中：</p>
+
+<p>X 代表猎物的数量</p>
+
+<p>T 代表扑食者的数量</p>
+
+<p>g 代表猎物的增长率（缺少扑食者存在的条件下）</p>
+
+<p>$\mu$ 代表扑食效率</p>
+
+<p>$\delta$  代表消化效率</p>
+
+<p>$\gamma$ 则代表扑食者的死亡率</p>
+
+<p>未完待续</p>
 ]]></content>
   </entry>
   
@@ -31,9 +59,198 @@
     <link href="http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao/"/>
     <updated>2013-05-12T00:06:00+02:00</updated>
     <id>http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao</id>
-    <content type="html"><![CDATA[<p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。</p>
+    <content type="html"><![CDATA[<p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。
+#<strong>果然是很麻烦!!!!!</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Study In Predator Prey Model]]></title>
+    <link href="http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/"/>
+    <updated>2013-05-12T00:00:00+02:00</updated>
+    <id>http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model</id>
+    <content type="html"><![CDATA[<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<h1><strong>果然是很麻烦!!!!!</strong></h1>
+<title></title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: &#8216;DejaVu Sans Mono&#8217;, &#8216;Droid Sans Mono&#8217;, &#8216;Lucida Console&#8217;, Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+<!-- MathJax scripts -->
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</head>
+
+<body>
+<p>因为毕业论文的缘故，最近在学习<em>predator-prey model*，算是属于</em><em>evolutionary game theory</em>*里面的吧。记得第二学期选*Advanced Microeconomics*的时候<a href="http://www.econ.upf.edu/en/people/onefaculty.php?id=p2364">Fabrizio Germano</a>在讲heuristic就在说</p>
+
+<blockquote>
+<p>some ideas are from biology  </p>
+</blockquote>
+
+<p>当时觉得那个天雷滚滚，三观尽毁，现在看来，感觉是那么的合乎情理，甚至显而易见。果然是沉淀了么，偷笑一个。</p>
+
+<p>其实这个模型（two species case）的基本思路非常之简单，假设生态系统中存在扑食者（predator）跟猎物（prey），他们之间遵循这个一个常微分方程（<a href="http://en.wikipedia.org/wiki/Ordinary_differential_equation">ordinary differential equation</a> ）:</p>
+
+<p>\[ 
+\begin{align*}
+ &\dot{X}=gX-\mu XT &#92;
+ &\dot{T}=\delta XT-\gamma T
+\end{align*}
+ \]</p>
+
+<p>这其中：</p>
+
+<p>X 代表猎物的数量</p>
+
+<p>T 代表扑食者的数量</p>
+
+<p>g 代表猎物的增长率（缺少扑食者存在的条件下）</p>
+
+<p>\( \mu \) 代表扑食效率</p>
+
+<p>\( \delta \)  代表消化效率</p>
+
+<p>\( \gamma \) 则代表扑食者的死亡率</p>
+
+</body>
+
+</html>
+
 ]]></content>
   </entry>
   
