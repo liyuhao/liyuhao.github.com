@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/</loc>
-        <lastmod>2013-05-12T01:54:41+02:00</lastmod>
-    </url>
-    <url>
         <loc>http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao/</loc>
         <lastmod>2013-05-12T00:41:43+02:00</lastmod>
     </url>
     <url>
         <loc>http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/</loc>
-        <lastmod>2013-05-12T01:55:33+02:00</lastmod>
+        <lastmod>2013-05-12T09:10:16+02:00</lastmod>
     </url>
     <url>
         <loc>http://liyuhao.github.io/blog/archives/</loc>
-        <lastmod>2013-05-12T01:55:33+02:00</lastmod>
+        <lastmod>2013-05-12T09:10:16+02:00</lastmod>
     </url>
     <url>
         <loc>http://liyuhao.github.io/</loc>
-        <lastmod>2013-05-12T01:55:33+02:00</lastmod>
+        <lastmod>2013-05-12T09:10:16+02:00</lastmod>
     </url>
     <url>
         <loc>http://liyuhao.github.io/robots.txt</loc>
