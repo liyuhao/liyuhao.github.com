@@ -4,7 +4,7 @@
   <title><![CDATA[Deer's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-05-13T14:18:34+02:00</updated>
+  <updated>2013-05-13T14:22:24+02:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -64,8 +64,9 @@
     <link href="http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao/"/>
     <updated>2013-05-12T00:06:00+02:00</updated>
     <id>http://liyuhao.github.io/blog/2013/05/12/zhong-yu-nong-hao-liao</id>
-    <content type="html"><![CDATA[<p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。
-#<strong>果然是很麻烦!!!!!</strong></p>
+    <content type="html"><![CDATA[<p>在<a href="http://bearqq.github.io">BEAR</a>同志下的细心指导下，终于配置好了octopress+github的blog。。</p>
+
+<h1 id="section"><strong>果然是很麻烦!!!!!</strong></h1>
 ]]></content>
   </entry>
   
