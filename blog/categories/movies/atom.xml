@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Movies | Deer's Blog]]></title>
+  <title><![CDATA[Category: Movies | Dear's Blog]]></title>
   <link href="http://liyuhao.github.io/blog/categories/movies/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2013-07-24T15:39:50+08:00</updated>
+  <updated>2014-01-06T00:51:23+01:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[放假了1:Marina Abramović]]></title>
-    <link href="http://liyuhao.github.io/blog/2013/06/21/fang-jia-liao-1-marina-abramovic/"/>
-    <updated>2013-06-21T00:18:00+08:00</updated>
-    <id>http://liyuhao.github.io/blog/2013/06/21/fang-jia-liao-1-marina-abramovic</id>
-    <content type="html"><![CDATA[<p>终于放假了，虽说还有Master Project的展示需要完成，但身体，思想已经开始了放假模式了，积攒了好多想看的电影，纪录片也能一点一点的来消灭了。第一部想看的记录片就是这部<a href="http://movie.douban.com/subject/7015732/">《玛瑞娜·阿布拉莫维奇：艺术家在场 Marina Abramović: The Artist Is Present (2012)》</a>。想看的原因其实是因为之前看到微博，人人上很多人转载这个<a href="http://www.tudou.com/programs/view/2Ys4h6hVHH0/">视频</a> <video width='640' height='320' preload='none' controls poster='http://www.moma.org/images/dynamic_content/exhibition_page/39010.jpg'><source src='http://pdl.vimeocdn.com/85464/479/157574452.mp4?token=1371768019_918929b645d8a83bc3aa70841eea0050' ></video></p>
+    <title type="html"><![CDATA[放假了1]]></title>
+    <link href="http://liyuhao.github.io/blog/2013/06/21/fang-jia-liao-1/"/>
+    <updated>2013-06-21T14:19:57+02:00</updated>
+    <id>http://liyuhao.github.io/blog/2013/06/21/fang-jia-liao-1</id>
+    <content type="html"><![CDATA[<p>终于放假了，虽说还有Master Project的展示需要完成，但身体，思想已经开始了放假模式了，积攒了好多想看的电影，纪录片也能一点一点的来消灭了。第一部想看的记录片就是这部<a href="http://movie.douban.com/subject/7015732/">《玛瑞娜·阿布拉莫维奇：艺术家在场 Marina Abramović: The Artist Is Present (2012)》</a>。想看的原因其实是因为之前看到微博，人人上很多人转载这个<a href="http://www.tudou.com/programs/view/2Ys4h6hVHH0/">视频</a> <video width="640" height="320" preload="none" controls="" poster="http://www.moma.org/images/dynamic_content/exhibition_page/39010.jpg"><source src="http://pdl.vimeocdn.com/85464/479/157574452.mp4?token=1371768019_918929b645d8a83bc3aa70841eea0050" /></video></p>
 
 <!-- more -->
 
@@ -34,6 +34,7 @@
 <img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1e5vfpxbflqj21kw11xk3w.jpg" alt="" />
 <img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1e5vfq9xanej20ci0ir760.jpg" alt="这就是那个 Rhythm 0, 1974 行为艺术" />
 <img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1e5vfrbp5fyj21kw0xck05.jpg" alt="我觉得这张有关宗教，五角星代表异教徒" /></p>
+
 ]]></content>
   </entry>
   

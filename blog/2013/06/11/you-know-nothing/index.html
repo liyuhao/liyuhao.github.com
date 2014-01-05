@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>A study in predator prey model - Dear's Blog</title>
+  <title>You Know Nothing - Dear's Blog</title>
   <meta name="author" content="Li Yuhao">
 
   
-  <meta name="description" content="A Study in Predator Prey Model May 12th, 2013 因为毕业论文的缘故，最近在学习predator-prey model，算是属于evolutionary game theory里面的吧。记得第二学期选Advanced &hellip;">
+  <meta name="description" content="You Know Nothing Jun 11th, 2013 完全不知道为什么会取这个题目，早上起来例行的boot进windows（彻底切换Ubuntu已经快两个月了，这期间需要进入windows就是为了用迅雷下GOT啊。。。。），人人影视，迅雷，下载最新一集Game of Thrones（ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model">
+  <link rel="canonical" href="http://liyuhao.github.io/blog/2013/06/11/you-know-nothing">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dear's Blog" type="application/atom+xml">
@@ -70,7 +70,7 @@
   <header>
   
     
-      <h1 class="entry-title">A Study in Predator Prey Model</h1>
+      <h1 class="entry-title">You Know Nothing</h1>
     
   
     
@@ -87,54 +87,24 @@
   
 
 
-<time datetime="2013-05-12T13:28:00+02:00" pubdate data-updated="true">May 12<span>th</span>, 2013</time>
+<time datetime="2013-06-11T14:27:19+02:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>因为毕业论文的缘故，最近在学习<em>predator-prey model</em>，算是属于<strong>evolutionary game theory</strong>里面的吧。记得第二学期选<em>Advanced Microeconomics</em>的时候<a href="http://www.econ.upf.edu/en/people/onefaculty.php?id=p2364">Fabrizio Germano</a>在讲heuristic就在说</p>
+<div class="entry-content"><p>完全不知道为什么会取这个题目，早上起来例行的boot进windows（彻底切换Ubuntu已经快两个月了，这期间需要进入windows就是为了用迅雷下GOT啊。。。。），人人影视，迅雷，下载最新一集Game of Thrones（S03E10）。上周的红色婚礼少狼主一家被屠杀绝对是够突然，随着大门被关上，响<a href="http://en.wikipedia.org/wiki/The_Rains_of_Castamere">The Rains of Castamere</a> 就隐隐的觉得不对劲了，不过完全没想到是这样基本灭门的屠杀。不过之后也看到GRRM在回答Conan时回答道他就是想让读者/观众忍不下心去翻开下一页（默默的吐槽下，这后爹养的原作者啊。。）。Anyway，自己还是挺欣赏这样的处理方法的，让可预测的变得不可预测，这才够真实。</p>
 
-<blockquote>
-  <p>some ideas are from biology  </p>
-</blockquote>
+<p>不过，原本以为第三季最后一集会有Joffery婚礼的内容，结果苦等到最后也还是没有出现，好吧，Joffery看来要在第四季SHI了。。应了那句话，坏人命长。</p>
 
-<p>当时觉得那个天雷滚滚，三观尽毁，现在看来，感觉是那么的合乎情理，甚至显而易见。果然是沉淀了么，偷笑一个。</p>
+<p>=====================分割线=========================</p>
 
-<p>其实这个模型（two species case）的基本思路非常之简单，假设生态系统中存在扑食者（predator）跟猎物（prey），他们之间遵循这个一个常微分方程（<a href="http://en.wikipedia.org/wiki/Ordinary_differential_equation">ordinary differential equation</a> ）:</p>
+<p>写Blog之前在看计量，VAR。推荐这个<a href="http://faculty.washington.edu/ezivot/econ584/notes/varModels.pdf">PDF文档</a>，随文档还附送S-PLUS代码哦亲，稍微改改就能拿到R上去用了，多好啊～～。 目前看到IRF，FEVD。讲得比较的浅显，不过好在是够清楚，特别适合马上要考试的我。。。。（要考试了还在blog，这是要SHI的节奏么。。）</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
+<p>====================有一根分割线====================</p>
 
-\begin{align*}
- &\dot{X}=gX-\mu XT \\
- &\dot{T}=\delta XT-\gamma T
-\end{align*}
- %]]></script>
-
-<p>这其中：</p>
-
-<!-- more -->
-
-<p>X 代表猎物的数量</p>
-
-<p>T 代表扑食者的数量</p>
-
-<p>g 代表猎物的增长率（缺少扑食者存在的条件下）</p>
-
-<p>$\mu$ 代表扑食效率</p>
-
-<p>$\delta$  代表消化效率</p>
-
-<p>$\gamma$ 则代表扑食者的死亡率</p>
-
-<p>整个方程组的不动点（？对应的英文是rest point,就是使$\dot{X}=0$, $\dot{T}=0$的点）有两对，第一队显而易见，$X=0$,$T=0$,但这并不是所需要的（扑食者跟猎物都灭绝了，还研究个鸟啊）另外一对则是：$T=\frac{g}{\mu}$ 以及 $X=\frac{\gamma}{\delta}$. 事实上，从图形的角度来看（以X为横坐标，T为纵坐标），运动轨迹正好是一个类圆形。</p>
-
-<p><img src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1e4lr36ckygj20at09f3yr.jpg" title="轨迹图" /></p>
-
-<p>如果出发点在第三象限，此时猎物的数量在不断的增长而扑食者的数量却在下降，自然地，当到达一定程度后，扑食者开始更加有效地扑食，且扑食者的扑食习惯已经更新并将会持续保持（第四象限）直到某一点上猎物的数量开始下降（第一象限），当扑食者的过度扑食造成猎物数量下降到一定程度后，猎物数量跟扑食者的数量都将下降（第二象限）。然后继续这样循环着。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Alfred_J._Lotka">Lotka</a>跟<a href="http://en.wikipedia.org/wiki/Vito_Volterra">Volterra</a>第一次提出这个模型，所以也叫<a href="http://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equation">L-V predator-prey model</a>。</p>
+<p>看到上一篇日志写想要去土耳其，其实写完不多久就发现没法去澳大利亚了（due to 该死的西班牙居住证延期手续），然后就不停的YY去土耳其，还比较上心的去穷游网查了下攻略什么的，结果，结果万万没想到，<a href="http://www.reuters.com/article/2013/06/03/us-turkey-protests-idUSBRE94U0J920130603">土耳其闹暴动了！！</a>。希望到六月底的时候暴动能平息下来，让我还能在这个夏天感受下文化的碰撞。OR 要么去威尼斯看<a href="http://www.labiennale.org/en/Home.html">双年展</a>，或者去土耳其死对头塞浦路斯玩玩～～～</p>
 
 </div>
 
@@ -165,7 +135,7 @@
   
 
 
-<time datetime="2013-05-12T13:28:00+02:00" pubdate data-updated="true">May 12<span>th</span>, 2013</time>
+<time datetime="2013-06-11T14:27:19+02:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
       
 
 
@@ -173,7 +143,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/" data-via="" data-counturl="http://liyuhao.github.io/blog/2013/05/12/a-study-in-predator-prey-model/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://liyuhao.github.io/blog/2013/06/11/you-know-nothing/" data-via="" data-counturl="http://liyuhao.github.io/blog/2013/06/11/you-know-nothing/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -186,10 +156,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/05/12/zhong-yu-nong-hao-liao/" title="Previous Post: 终于弄好了">&laquo; 终于弄好了</a>
+        <a class="basic-alignment left" href="/blog/2013/05/22/turkey/" title="Previous Post: Turkey">&laquo; Turkey</a>
       
       
-        <a class="basic-alignment right" href="/blog/2013/05/22/turkey/" title="Next Post: Turkey">Turkey &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2013/06/21/fang-jia-liao-1/" title="Next Post: 放假了1">放假了1 &raquo;</a>
       
     </p>
   </footer>
