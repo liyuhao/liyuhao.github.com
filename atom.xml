@@ -4,7 +4,7 @@
   <title><![CDATA[Dear's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2014-01-06T14:47:25+01:00</updated>
+  <updated>2014-01-06T16:04:06+01:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -18,8 +18,14 @@
     <link href="http://liyuhao.github.io/blog/2014/01/06/sur-de-espana/"/>
     <updated>2014-01-06T00:55:27+01:00</updated>
     <id>http://liyuhao.github.io/blog/2014/01/06/sur-de-espana</id>
-    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ec9htce2bpj21kw11xtq7.jpg" title="Cordoba_Day" /> 
-<img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ec9i08so4wj21kw11xe81.jpg" title="Cordoba_Night" /></p>
+    <content type="html"><![CDATA[<p><img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ec9htce2bpj21kw11xtq7.jpg" width="150" height="150" title="Cordoba_Day" />
+<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ec9i08so4wj21kw11xe81.jpg" width="150" height="150" title="Cordoba_Night" />
+<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca6xk2i4hj21kw11xnnn.jpg" width="150" height="150" title="Sevilly_Day" />
+<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7735oc0j21kw11x7wh.jpg" width="150" height="150" title="Sevilly_Night" />
+<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca7xotxtlj21kw11x4qp.jpg" width="150" height="150" title="Malaga_Day" />
+<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7xk0yhpj21kw11xh5d.jpg" width="150" height="150" title="Malaga_Night" />
+<img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1eca797d3lyj21kw11xap7.jpg" width="150" height="150" title="Granada_Day" />
+<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1eca79ghvexj21kw11x1kx.jpg" width="150" height="150" title="Granada_Night" /></p>
 
 ]]></content>
   </entry>
