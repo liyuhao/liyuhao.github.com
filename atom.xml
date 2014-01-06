@@ -4,7 +4,7 @@
   <title><![CDATA[Dear's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2014-01-06T20:48:26+01:00</updated>
+  <updated>2014-01-06T21:17:29+01:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -18,14 +18,14 @@
     <link href="http://liyuhao.github.io/blog/2014/01/06/sur-de-espana/"/>
     <updated>2014-01-06T00:55:27+01:00</updated>
     <id>http://liyuhao.github.io/blog/2014/01/06/sur-de-espana</id>
-    <content type="html"><![CDATA[<p><img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ec9htce2bpj21kw11xtq7.jpg" width="150" height="150" title="Cordoba_Day" />
-<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ec9i08so4wj21kw11xe81.jpg" width="150" height="150" title="Cordoba_Night" />
-<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca6xk2i4hj21kw11xnnn.jpg" width="150" height="150" title="Sevilly_Day" />
-<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7735oc0j21kw11x7wh.jpg" width="150" height="150" title="Sevilly_Night" />
-<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca7xotxtlj21kw11x4qp.jpg" width="150" height="150" title="Malaga_Day" />
-<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7xk0yhpj21kw11xh5d.jpg" width="150" height="150" title="Malaga_Night" />
-<img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1eca797d3lyj21kw11xap7.jpg" width="150" height="150" title="Granada_Day" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1eca79ghvexj21kw11x1kx.jpg" width="150" height="150" title="Granada_Night" /></p>
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ec9htce2bpj21kw11xtq7.jpg" title="Cordoba_Day" style="width: 150px;" />
+<img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ec9i08so4wj21kw11xe81.jpg" title="Cordoba_Night" style="width: 150px;" />
+<img src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca6xk2i4hj21kw11xnnn.jpg" title="Sevilly_Day " style="width: 150px;" />
+<img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7735oc0j21kw11x7wh.jpg" title="Sevilly_Night" style="width: 150px;" />
+<img src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1eca7xotxtlj21kw11x4qp.jpg" title="Malaga_Day " style="width: 150px;" />
+<img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1eca7xk0yhpj21kw11xh5d.jpg" title="Malaga_Night " style="width: 150px;" />
+<img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1eca797d3lyj21kw11xap7.jpg" title="Granada_Day " style="width: 150px;" />
+<img src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1eca79ghvexj21kw11x1kx.jpg" title="Granada_Night" style="width: 150px;" /></p>
 
 <p>圣诞假期，琢磨着去西班牙南部玩一下，最后去成了四个城市，依时间顺序分别是Cordoba(科尔多瓦),Sevilla(塞维利亚)，Malaga(马拉加)以及Granada(格拉纳达)。四个城市虽自然地各有风格，但都无疑打上了浓浓的安达卢西亚特色：伊斯兰，基督教以及犹太教的大熔炉。文化的冲突融合，历史的交汇沉淀，以及无法拒绝的温暖阳光，使得我怎么都不想回马德里近郊的Getafe了。
 # Cordoba
@@ -37,23 +37,23 @@
 
 <!-- More -->
 
-<p><img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecae8egesyj21kw11x1kx.jpg" width="350" height="350" title="Catedral de Cordoba_day" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae74ucj3j21kw11xqtx.jpg" width="350" height="350" title="Catedral de Cordoba_night" />
-<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ecae5motlaj21kw11x4qp.jpg" width="350" height="350" title="puente de romano_day" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae40jsh1j21kw11xne1.jpg" width="350" height="350" title="puente de romano_night" /></p>
+<p><img src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecae8egesyj21kw11x1kx.jpg" title="Catedral de Cordoba_day" style="width: 350px;" />
+<img src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae74ucj3j21kw11xqtx.jpg" title="Catedral de Cordoba_night" style="width: 350px;" />
+<img src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ecae5motlaj21kw11x4qp.jpg" title="puente de romano_day" style="width: 350px;" /> 
+<img src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae40jsh1j21kw11xne1.jpg" title="puente de romano_night" style="width: 350px;" /></p>
 
 <p>在Cordoba总共待了两天，不过事实证明一天半的时间就已经很充足了，所以Cordoba的大街小巷都被我们无聊的逛的差不多了（当然说的是老城区了，大部分的景点都集中于此）。以时间来叙吧，第一天主要参观了<a href="http://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99%E5%90%9B%E4%B8%BB%E5%9F%8E%E5%A0%A1">基督教君主城堡（Alcázar de los Reyes Cristianos）</a>，主座教堂，罗马桥,<a href="http://zh.wikipedia.org/wiki/%E8%8A%B1%E5%B7%B7_(%E7%A7%91%E5%B0%94%E5%A4%9A%E7%93%A6)">百花巷（Calleja de las Flores）</a>。</p>
 
 <p>基督教君主城堡算得上我心目中的Cordoba最美景点了，城堡本为穆斯林所建，后在<a href="http://zh.wikipedia.org/wiki/%E6%94%B6%E5%BE%A9%E5%A4%B1%E5%9C%B0%E9%81%8B%E5%8B%95">基督教收复战争（Reconquista）</a>中为<a href="http://zh.wikipedia.org/wiki/%E5%A4%A9%E4%B8%BB%E6%95%99%E5%8F%8C%E7%8E%8B">西班牙天主教双王（Reyes Católicos）</a>的战争大本营。票价学生证打折后2.25欧，性价比非常之高。城堡主要由城楼、城墙以及花园组成。城墙城楼自然是登高望远，而花园才是精华所在。</p>
 
-<p><img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ecafl9nvxxj21kw11x4qp.jpg" width="350" height="350" title="Alcázar de los Reyes Cristianos" />
-<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecafk1phymj21kw11x7wh.jpg" width="350" height="350" title="Alcázar de los Reyes Cristianos" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecafl4aq6rj21kw11xniz.jpg" width="350" height="350" title="Alcázar de los Reyes Cristianos" />
-<img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecafk3xa7wj21kw11xwx5.jpg" width="350" height="350" title="Alcázar de los Reyes Cristianos" /></p>
+<p><img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ecafl9nvxxj21kw11x4qp.jpg" title="Alcázar de los Reyes Cristianos" style="width: 350px;" />
+<img src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecafk1phymj21kw11x7wh.jpg" title="Alcázar de los Reyes Cristianos" style="width: 350px;" />
+<img src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecafl4aq6rj21kw11xniz.jpg" title="Alcázar de los Reyes Cristianos" style="width: 350px;" />
+<img src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecafk3xa7wj21kw11xwx5.jpg" title="Alcázar de los Reyes Cristianos" style="width: 350px;" /></p>
 
 <p>城堡里面种有大量橘子树，其实在整个安达卢西亚大区，街道两旁的景观树都是橘子树，不过树上的橘子是不能摘的，倒并非是有法律禁止如此，而是，那橘子一点也不甜反而苦涩无比。想我当时年少无知，当真摘了一个，结果。。。。。。。</p>
 
-<p><img class="fancybox" src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ecafvk801uj21kw11xkjl.jpg" width="450" height="450" title="Alcázar de los Reyes Cristianos" /></p>
+<p><img src="http://ww1.sinaimg.cn/large/4d8a2fa9gw1ecafvk801uj21kw11xkjl.jpg" title="Alcázar de los Reyes Cristianos" style="width: 450px;" /></p>
 ]]></content>
   </entry>
   
