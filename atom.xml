@@ -4,7 +4,7 @@
   <title><![CDATA[Dear's Blog]]></title>
   <link href="http://liyuhao.github.io/atom.xml" rel="self"/>
   <link href="http://liyuhao.github.io/"/>
-  <updated>2014-01-06T19:42:12+01:00</updated>
+  <updated>2014-01-06T19:45:37+01:00</updated>
   <id>http://liyuhao.github.io/</id>
   <author>
     <name><![CDATA[Li Yuhao]]></name>
@@ -36,10 +36,10 @@
 
 <!-- more -->
 
-<p><img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecae8egesyj21kw11x1kx.jpg" width="250" height="250" title="Catedral de Cordoba_day" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae74ucj3j21kw11xqtx.jpg" width="250" height="250" title="Catedral de Cordoba_night" />
-<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ecae5motlaj21kw11x4qp.jpg" width="250" height="250" title="puente de romano_day" />
-<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae40jsh1j21kw11xne1.jpg" width="250" height="250" title="puente de romano_night" /></p>
+<p><img class="fancybox" src="http://ww3.sinaimg.cn/large/4d8a2fa9gw1ecae8egesyj21kw11x1kx.jpg" width="350" height="350" title="Catedral de Cordoba_day" />
+<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae74ucj3j21kw11xqtx.jpg" width="350" height="350" title="Catedral de Cordoba_night" />
+<img class="fancybox" src="http://ww2.sinaimg.cn/large/4d8a2fa9gw1ecae5motlaj21kw11x4qp.jpg" width="350" height="350" title="puente de romano_day" />
+<img class="fancybox" src="http://ww4.sinaimg.cn/large/4d8a2fa9gw1ecae40jsh1j21kw11xne1.jpg" width="350" height="350" title="puente de romano_night" /></p>
 
 ]]></content>
   </entry>
